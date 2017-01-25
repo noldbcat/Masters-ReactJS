@@ -16,6 +16,13 @@
 .section {  
     text-align: center; 
     font-size: 12px;
+    margin: auto;
+    width: 90%;    
+}
+.innersection {  
+    text-align: center;     
+    margin: auto;  
+    width: 50%;      
 }
 
 .footer {
