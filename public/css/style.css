@@ -1,30 +1,62 @@
 @import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css';
 
 .row {
-    width: 100%;
-    height: 200px;
-    top: 0;
-    text-align: center;    
+    width: 100%;    
+    top: 0;    
     margin-left: 0 !important;
+    border-color: gray;
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;  
+    vertical-align: middle;
+}
+
+.row div {
+     height: 50px;
+     vertical-align: middle;
+     display: flex;
+     align-items: center;     
+     border-color: gray;
+     border-style: solid;
+     border-width: 0px 0px 0px 1px;  
+     border-width: 0px 0px 0px 1px;  
+}
+
+.fieldleft {
+   text-align: left;
+}
+
+.fieldmid {
+   justify-content: center;
+}
+.fieldright {
+   text-align: right;
 }
 
 .header {
     text-align: center;  
-    background-color: #052E65 !important;
-    font-size: 20px;
+    background-color: #337ab7 !important;
+    font-size: 14px;
     color: white;
 }
 
-.section {  
-    text-align: center; 
+.section {      
     font-size: 12px;
     margin: auto;
     width: 90%;    
 }
-.innersection {  
-    text-align: center;     
+.innersection {      
     margin: auto;  
-    width: 50%;      
+    width: 100%;      
+}
+
+.tableHeader {
+    text-align: center;  
+    background-color:  #b3d1ff !important;    
+    padding: 10px 0px 10px 0px;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;    
+    height: 30px; 
 }
 
 .footer {
