@@ -3,6 +3,7 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var ReactBootstrap = require('react-bootstrap');
 import { Router, Route, Link, browserHistory, IndexRoute  } from 'react-router';
+import { LinkContainer } from 'react-router-bootstrap';
 
 var Navbar = ReactBootstrap.Navbar;
 var Nav = ReactBootstrap.Nav;
@@ -20,7 +21,9 @@ var NavHeader = React.createClass( {
               </Navbar.Brand>
             </Navbar.Header>
             <Nav>
-              <NavItem href="#" ><Link to='/tasklist' className='btn-primary'>TaskList</Link></NavItem>              
+              <LinkContainer to='/tasklist'>
+                  <NavItem>TaskList</NavItem>              
+              </LinkContainer>
             </Nav>
           </Navbar>        
    )}

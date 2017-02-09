@@ -4,9 +4,9 @@
     width: 100%;    
     top: 0;    
     margin-left: 0 !important;
-    border-color: gray;
+    border-color: lightgray;
     border-style: solid;
-    border-width: 0px 1px 1px 1px;  
+    border-width: 0px .5px .5px 0px;  
     vertical-align: middle;
 }
 
@@ -15,10 +15,10 @@
      vertical-align: middle;
      display: flex;
      align-items: center;     
-     border-color: gray;
+     border-color:lightgray;
      border-style: solid;
-     border-width: 0px 0px 0px 1px;  
-     border-width: 0px 0px 0px 1px;  
+     border-width: 0px 0px 0px .5px;  
+     border-width: 0px 0px 0px .5px;  
 }
 
 .fieldleft {
@@ -55,8 +55,9 @@
     padding: 10px 0px 10px 0px;
     border-color: gray;
     border-style: solid;
-    border-width: 1px;    
+    border-width: 0px 0px 1px 0px;    
     height: 30px; 
+    font-weight: bold;    
 }
 
 .footer {
